@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS SPACESHIP;
+
+CREATE TABLE SPACESHIP (
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+INSERT INTO SPACESHIP (id, name, platform) VALUES ('e7e3865d-40ef-4711-bfe4-78dc87fdfa1d', 'x-wing', 'PELICULA');
+INSERT INTO SPACESHIP (id, name, platform) VALUES ('242317cc-cb40-4191-9acd-4cdbb6f21612', 'y-wing', 'PELICULA');
+INSERT INTO SPACESHIP (id, name, platform) VALUES ('0313e495-0a66-405d-95e9-aae71d9c57a0', 'a-wing', 'PELICULA');
+INSERT INTO SPACESHIP (id, name, platform) VALUES ('f63367d7-8920-44e7-a7d8-4afa33fee894', 'rocinante', 'SERIE');
+INSERT INTO SPACESHIP (id, name, platform) VALUES ('afa3ca41-fc8a-47d4-a2a1-a2b13b8b18e9', 'bebop', 'SERIE');
+
+SELECT * FROM SPACESHIP;
+
+SELECT * FROM USUARIO;
